@@ -1,5 +1,4 @@
 # String data types
-
 # literal assignment 
 first = 'Oleh'
 last = 'Mart'
