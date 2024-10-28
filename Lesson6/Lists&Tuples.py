@@ -7,7 +7,6 @@ emptylist = []
 print('Mike' in users)
 # true
 
-
 print(users[0])
 # Mike
 print(users[-2])
