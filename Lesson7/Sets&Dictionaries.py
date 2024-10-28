@@ -1,6 +1,5 @@
 # Dictionaries (similar to objects in JS)
 
-
 band = {
     "vocals": "Plant",
     "guitar": "Page"
