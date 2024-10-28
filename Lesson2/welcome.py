@@ -2,7 +2,6 @@ line1 = "********************"  # heade / footer
 line2 = "*                  *"  # re-use
 line3 = "*     WELCOME!     *"
 
-
 # starts with a blank line
 print('')
 print(line1)
