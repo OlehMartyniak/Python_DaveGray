@@ -7,7 +7,7 @@ def add_one(num):
     total = num + 1
     print(total)
 
-    add_one(total)
+    return add_one(total)
 
 mynewtotal = add_one(0)
 print(mynewtotal)
