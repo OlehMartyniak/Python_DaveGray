@@ -19,4 +19,5 @@ tommy = parent_function("Tommy")
 jenny = parent_function("Jenny")
 
 tommy()
+tommy()
 jenny()
