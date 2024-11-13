@@ -19,5 +19,6 @@ def funcBuilder(x):
 addTen = funcBuilder(10)
 addTwenty = funcBuilder(20)
 
-print(addTen(7))
-print(addTwenty(7))
+print(addTen(7)) # 17
+print(addTwenty(7)) # 27
+

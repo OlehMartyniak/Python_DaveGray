@@ -46,7 +46,6 @@ print(sum(numbers3)) # 20
 names = ["Oleh", "Bon Jovi", "Messershmidt"]
 
 char_count = reduce(lambda acc, curr: acc + len(curr), names, 0)
-
 print(char_count) # 24
 
 

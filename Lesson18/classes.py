@@ -42,10 +42,14 @@ cessna = Airplane("Cessna", "Skyhawk")
 ford = Truck("Ford", "150")
 golfwagon = GolfCart("Yamaha", "GC100")
 
-cessna.get_make_model()
-cessna.moves()
-ford.get_make_model()
-ford.moves()
-golfwagon.get_make_model()
-golfwagon.moves()
+# метод moves() є в обох класах, однак пріоритет буде в батьківського; втім можна викликати інший якщо в конструкторі був метод pass
+
+cessna.get_make_model() # I'm a Cessna Skyhawk
+cessna.moves() # Flies along...
+ford.get_make_model() # I'm a Ford 150
+ford.moves() # Rumbling along...
+golfwagon.get_make_model() # I'm a Yamaha GC100
+golfwagon.moves() # Moves along...
+
+
 
