@@ -8,6 +8,9 @@ try:
 except:
     print("There is an error")
 
+
+
+# Else & Finally
 # наприклад якщо ми знаємо конкретно яку помилку потрібно виділити:
 # помилка з діленням на 0:
 x = 2
@@ -20,12 +23,14 @@ else: # else виконається якщо не буде знайдено за
 finally: # finally спрацює в будь-якому випадку
     print("Finally prints whether or not there is an error")
 
+
+
 # Exception as an error
 # можна здійснити перевірку на тип даних, наприклад якщо дані не string тоді вивести помилку
 
 try:
     if not type(x) is str:
         raise TypeError("Only strings are allowed")
-except Exception as error:
-    print(error)
+except Exception as error: # Exception підтягнуло вище зазначене повідомлення про помилку
+    print(error) # Only strings are allowed
 
